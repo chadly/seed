@@ -14,13 +14,6 @@ includes: auto
 scripts: {}
 devDependencies:
   apm:
-    - microsoft/apm/packages/apm-guide#v0.26.0
-    - chadly/skillz#v1.0.0
-    - dietrichgebert/ponytail#v4.8.4
-  mcp:
-    - name: firecrawl
-      registry: false
-      transport: http
-      url: https://mcp.firecrawl.dev/v2/mcp
-      headers:
-        Authorization: Bearer ${FIRECRAWL_API_KEY}
+    - chadly/skillz#v2.3.0
+    - microsoft/apm/packages/apm-guide#v0.31.0
+    - dietrichgebert/ponytail#v4.10.0

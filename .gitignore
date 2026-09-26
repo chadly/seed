@@ -3,7 +3,15 @@
 .env.local
 
 
+# Ignore apm-managed dependencies
 apm_modules/
 .claude/
+.agents/
+.codex/
+.opencode/
+.cursor/
 .mcp.json
-apm.lock.yaml
+opencode.json
+
+AGENTS.md
+CLAUDE.md

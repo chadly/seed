@@ -14,6 +14,10 @@ includes: auto
 scripts: {}
 devDependencies:
   apm:
-    - chadly/skillz#v2.3.0
-    - microsoft/apm/packages/apm-guide#v0.31.0
+    - git: chadly/skillz
+      ref: v2.4.0
+      skills:
+        - git-commit
+        - screenshots
+    - microsoft/apm/packages/apm-guide#v0.30.0
     - dietrichgebert/ponytail#v4.10.0
